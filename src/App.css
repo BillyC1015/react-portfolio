@@ -24,9 +24,13 @@ height: 15vh;
 }
 
 .footer{
-  position: relative;
+  position: absolute;
   bottom: 0;
-  justify-content: ;
   background-color: tomato;
   height: 10vh;
+  width: 100%;
+  }
+
+  .contact-info{
+    
   }
