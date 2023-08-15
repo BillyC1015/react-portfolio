@@ -37,3 +37,8 @@ height: 15vh;
   form{
 width: 15%
   }
+
+  .projectdiv{
+    display: flex;
+    justify-content: space-around;
+  }

@@ -27,7 +27,14 @@ function Portfolio() {
     return (
       <div className="portfolio">
         <h1>Portfolio</h1>
-        {projects.map(project=>{})}
+        <div className="projectdiv">
+        {projects.map(project=>{
+            return(
+                <div><Project name={project.name} description={project.description} github={project.github} url={project.url} image={project.image}></Project></div>
+            )
+            
+        })}
+        </div>
       </div>
     );
   }
