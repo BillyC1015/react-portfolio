@@ -30,7 +30,10 @@ height: 15vh;
   height: 10vh;
   width: 100%;
   }
-
-  .contact-info{
-    
+.skills{
+  display: flex;
+  justify-content: center;
+}
+  form{
+width: 15%
   }
