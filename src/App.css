@@ -42,3 +42,11 @@ width: 15%
     display: flex;
     justify-content: space-around;
   }
+
+  .selfie{
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    width: 30 px
+    ;
+  }
